@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mid-Sem Exam Datesheet</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>📅 Mid-Sem Exam Datesheet</h1>
+        <label for="class-select">Select Your Class:</label>
+        <select id="class-select" onchange="showDatesheet()">
+            <option value="">--Choose section--</option>
+            <option value="class1">section A,B,C</option>
+            <option value="class2">section D,E,F</option>
+        </select>
+
+        <div id="datesheet" class="hidden">
+            <h2>Exam Dates:</h2>
+            <table id="datesheet-table">
+                <!-- Dynamic Data Will Load Here -->
+            </table>
+        </div>
+        
+    </div>
+<h3>Credit: <span>Team GPT</span></h3>
+    <script src="script.js"></script>
+</body>
+</html>

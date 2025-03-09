@@ -14,10 +14,6 @@ const examData = {
         { subject: "Electronics Engineering", date: "26 March", syllabus: "Unit3" },
         { subject: "Engineering Mechanics", date: "27 March", syllabus: "Unit3" },
     ],
-    class3: [
-        { subject: "Computer Science", date: "13 March", syllabus: "Programming, DBMS" },
-        { subject: "Economics", date: "15 March", syllabus: "Micro & Macro Economics" }
-    ]
 };
 // Show Datesheet
 function showDatesheet() {

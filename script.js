@@ -5,14 +5,14 @@ const examData = {
         { subject: "Applied Maths", date: "22 March", syllabus: "pdfs/math_syl.pdf" },
         { subject: "Thermal Science", date: "23 March", syllabus: "pdfs/thermal_syl.pdf" },
         { subject: "Electrical Engineering", date: "25 March", syllabus: "pdfs/electrical_syl.pdf" },
-        { subject: "Environmental", date: "25 March", syllabus: "pdfs/enviro_syl.jpg" },
+        { subject: "Environmental", date: "27 March", syllabus: "pdfs/enviro_syl.jpg" },
     ],
     class2: [
         {subject:"Applied Mathematics",date: "22 March",syllabus:"Unit3"},
         { subject: "Applied physics", date: "24 March", syllabus: "Unit1,Unit2" },
         { subject: "English", date: "25 March", syllabus: "Unit 2" },
-        { subject: "Electronics Engineering", date: "25 March", syllabus: "Unit3" },
-        { subject: "Engineering Mechanics", date: "25 March", syllabus: "Unit3" },
+        { subject: "Electronics Engineering", date: "26 March", syllabus: "Unit3" },
+        { subject: "Engineering Mechanics", date: "27 March", syllabus: "Unit3" },
     ],
     class3: [
         { subject: "Computer Science", date: "13 March", syllabus: "Programming, DBMS" },
